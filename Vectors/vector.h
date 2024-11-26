@@ -1,0 +1,33 @@
+#ifndef VECTOR_H
+#define VECTOR_H
+
+
+typedef struct {
+    float x, y;
+} vec2_t;
+
+typedef struct {
+    float x, y, z;
+} vec3_t;
+
+// TODO: Add functions to manipulate vectors 2D and 3D
+
+//////////////////////////////////////////////////////////////////
+// Vector 2D functions
+/////////////////////////////////////////////////////////////////
+// Magnitude
+float vec2_length(vec2_t v);
+// TODO: vec2_add, vec2_sub, vec2_mul, etc.
+
+
+
+
+//////////////////////////////////////////////////////////////////
+// Vector 3D functions
+/////////////////////////////////////////////////////////////////
+// Magnitude
+float vec3_length(vec3_t v);
+// TODO: vec3_add, vec3_sub, vec3_mul, etc.
+
+
+#endif
